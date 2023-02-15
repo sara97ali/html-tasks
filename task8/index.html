@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 8</title>
+</head>
+<body>
+    <form action="a.html" method="post">
+        <div><label for="num">Number:</label></div>
+        <div> <input type="text"  id="num" maxlength="5" placeholder="Number" name="number"></div>
+        <hr>
+        <div><label for="text">User Name::</label></div>
+        <div> <input type="text"  id="text" readonly name="user" value="Sara" placeholder="UserName"></div>
+        <hr>
+         <!--radio يستخدم عندما نريد من المستخدم ان يختار خيار واحد -->
+         <!--checkbox يستخدم عندما نريد من المستخدم ان يختاراكثر من خيار واحد -->
+         <div>
+            <input type="radio"  id="mac"  name="os" value="Mac">
+            <label for="mac">Mac</label>
+        </div>
+        <div>
+            <input type="radio"  id="lin"  name="os" value="Linux">
+            <label for="lin">Linux</label>
+        </div>
+        <div>
+            <input type="radio"  id="win"  name="os" value="Windows" checked>
+            <label for="win">Windows</label>
+        </div>
+        <hr>
+        <div>
+            <input type="checkbox"  id="arb"  name="languge" value="Arab" checked>
+            <label for="arb">Arab</label>
+        </div>
+        <div>
+            <input type="checkbox"  id="Eng"  name="languge" value="English">
+            <label for="Eng">English</label>
+        </div>
+        <div>
+            <input type="checkbox"  id="fre"  name="languge" value="French" >
+            <label for="win1">French</label>
+        </div>
+        <hr>
+        <input type="submit" value="Send">
+    </form>
+</body>
+</html> 
